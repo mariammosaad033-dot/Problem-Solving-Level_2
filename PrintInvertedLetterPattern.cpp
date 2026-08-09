@@ -15,7 +15,7 @@ void PrintInvertedLetterPattern(int number)
 {
     for (int i = number + 65 - 1;i >= 65;i--)
     {
-        for (int j = 65;j <= i;j++)
+        for (int j =1;j <= number - ((65 + number - 1) - i);j++)
         {
             cout << char(i);
         }
