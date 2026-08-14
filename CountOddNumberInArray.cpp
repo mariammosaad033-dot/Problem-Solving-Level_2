@@ -43,6 +43,7 @@ int OddCount(int arr[100], int arrlength)
 }
 int main()
 {
+    srand((unsigned)time(NULL));
     int arr[100], arrlength;
 
     FillArray(arr, arrlength);
